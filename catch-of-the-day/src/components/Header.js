@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 
 /**
  * Stateless Function - basically a function that does not use React.Component and is just there to render HTML
@@ -17,5 +18,9 @@ const Header = props => (
         </h3>
     </header>
 );
+
+Header.propTypes = {
+    storeName: PropTypes.string.isRequired
+}
 
 export default Header;

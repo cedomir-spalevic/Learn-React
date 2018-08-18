@@ -1,5 +1,5 @@
 {
-  "name": "cotd",
+  "name": "package",
   "version": "0.0.3",
   "private": true,
   "devDependencies": {
@@ -25,5 +25,9 @@
     "eject": "react-scripts eject",
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
     "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css"
-  }
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
