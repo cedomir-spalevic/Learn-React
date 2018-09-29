@@ -1,5 +1,5 @@
 # Learn-React
-> Catch of the Day Application built with ReactJS
+> Catch of the Day Application built with ReactJS tutorial
 
 ## How to run
 ``` bash
